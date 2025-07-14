@@ -1,0 +1,36 @@
+🧠 TOPICS COVERED (PROJECT & UI FRAMEWORKS)
+
+Wrapped up the week by putting everything together and building a complete responsive web page. Also explored modern UI frameworks.
+
+🔹 Project: Complete Responsive Web Page
+
+Built a personal profile or portfolio-style page
+
+Included header, navigation bar, content sections, image gallery, and footer
+
+Implemented responsive behavior using Flexbox, Grid, and Media Queries
+
+🔹 Bootstrap Introduction
+
+Linked Bootstrap CDN
+
+Used built-in classes for layout (container, row, col), buttons, navbars, etc.
+
+🔹 Tailwind CSS Overview
+
+Utility-first framework
+
+Inline classes like bg-blue-500, text-center, p-4
+
+Compared with Bootstrap for flexibility
+
+🔧 TOOLS USED
+
+VS Code
+
+Chrome (Live Preview + Responsive Testing)
+
+Bootstrap CDN, Tailwind CDN (via <link>)
+
+✅ TASK FOR NEXT WEEK
+Start with JavaScript basics: variables, data types, functions, and DOM manipulation. Prepare to add interactivity to our web pages.
