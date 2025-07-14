@@ -1,0 +1,56 @@
+🧠 TOPICS COVERED (LAYOUT & POSITIONING)
+
+Today, we focused on layout techniques and how elements behave on the screen using display and positioning properties.
+
+🔹 CSS Borders, Margins, Padding
+
+border: 2px solid black;
+
+margin for spacing outside the element
+
+padding for spacing inside the element
+
+🔹 CSS Display Property
+
+Learned types like block, inline, inline-block, none
+
+Understood their impact on how elements stack or flow
+
+🔹 CSS Positioning
+Explored different positioning methods:
+
+static: default
+
+relative: shifts element from its normal position
+
+absolute: positioned relative to nearest ancestor
+
+fixed: fixed to viewport
+
+sticky: sticks when scrolling
+
+🔹 Flexbox Layout
+
+Container with display: flex
+
+Properties like justify-content, align-items, flex-direction
+
+Built basic responsive layouts using flex
+
+🔹 CSS Grid Layout
+
+Container with display: grid
+
+Defined rows & columns with grid-template-rows, grid-template-columns
+
+Placed items using grid-row, grid-column
+
+🔧 TOOLS USED
+
+VS Code
+
+Chrome DevTools (for inspecting box model and layout)
+
+✅ TASK FOR TOMORROW
+Practice Flexbox and Grid examples. Prepare for CSS animations, transitions, and responsive design with media queries.
+
