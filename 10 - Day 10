@@ -1,0 +1,57 @@
+🧠 TOPICS COVERED (FILE SYSTEM & EXPRESS BASICS)
+
+Today we explored the backbone of Node.js backend development — the File System, Streams, and the Express.js framework.
+
+🔹 File System (fs) Module
+
+Used to read and write files using fs.readFile(), fs.writeFile()
+
+Synchronous vs asynchronous file operations
+
+Created a basic logging app using file operations
+
+🔹 Streams & Events
+
+Streams allow reading/writing large files efficiently
+
+Used createReadStream() and createWriteStream()
+
+Created custom events using EventEmitter
+
+🔹 Express.js Basics
+
+Lightweight framework built on Node.js
+
+Installed using npm install express
+
+Set up a simple server using:
+
+js
+Copy
+Edit
+const express = require('express');
+const app = express();
+app.listen(3000);
+🔹 Middleware & Routing
+
+Handled routes using app.get(), app.post()
+
+Middleware used for parsing body (express.json()) and logging
+
+🔹 Query Parameters & Request/Response
+
+Used query parameters like /search?q=book
+
+Accessed data using req.query, req.params, and req.body
+
+🔧 TOOLS USED
+
+VS Code
+
+Postman
+
+Node.js + Express + Terminal
+
+✅ TASK FOR NEXT WEEK
+Continue with Express.js routing, learn error handling, connect with MongoDB, and perform CRUD operations from the backend.
+
