@@ -1,0 +1,46 @@
+🧠 TOPICS COVERED (JS BASICS & FUNCTIONS)
+
+Today, we officially started with JavaScript, the scripting language of the web. We explored how to declare variables, use operators, write functions, and understand how the scope and hoisting mechanism works.
+
+🔹 Introduction to JavaScript
+JavaScript makes web pages interactive and dynamic. It runs in the browser and can manipulate HTML, handle events, and fetch data from APIs.
+
+🔹 Variables & Data Types
+
+Declared variables using var, let, and const
+
+Primitive data types: Number, String, Boolean, Null, Undefined
+
+Non-primitive: Object, Array, Function
+
+🔹 Operators
+Arithmetic (+, -, *, /), Comparison (==, ===, !=), Logical (&&, ||, !)
+
+🔹 Functions
+
+Declaring functions using function keyword
+
+Parameters vs arguments
+
+Return values and function expressions
+
+🔹 Scope & Hoisting
+
+Global vs Local Scope
+
+Hoisting: Variables and functions get moved to the top during execution
+
+🔹 Closures
+
+A function remembering variables from its outer scope
+
+Used in creating private variables or factory functions
+
+🔧 TOOLS USED
+
+VS Code
+
+Chrome Developer Console
+
+✅ TASK FOR TOMORROW
+Practice more on functions and closures. Learn how callbacks and async/await work for asynchronous code. Start working with arrays and their methods.
