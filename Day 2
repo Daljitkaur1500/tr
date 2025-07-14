@@ -1,0 +1,59 @@
+🧠 TOPICS COVERED (FORMS & CSS BASICS)
+
+We started with learning how to build forms in HTML and then transitioned into CSS basics to start styling our web pages.
+
+🔹 HTML Forms & Input Types
+
+Explored <form> tag and different types of inputs like text, password, email, radio, checkbox, submit, etc.
+
+Used <label> to describe each input clearly
+
+Buttons with <button> and <input type="submit">
+
+🔹 HTML5 Semantic Elements
+
+Introduced to semantic tags like <header>, <footer>, <article>, <section>, <nav>, etc.
+
+Learned how they improve readability and SEO
+
+🔹 Introduction to CSS
+CSS (Cascading Style Sheets) is used to style HTML pages.
+
+🔹 CSS Syntax & Selectors
+
+Basic structure:
+
+css
+Copy
+Edit
+selector {
+  property: value;
+}
+Selectors used: element, class (.class), id (#id)
+
+🔹 Box Model
+Understood the concept that each HTML element is a box with:
+
+Content
+
+Padding
+
+Border
+
+Margin
+
+🔹 Colors & Backgrounds
+
+Colors defined using names, HEX, RGB
+
+Background properties like background-color, background-image
+
+🔧 TOOLS USED
+
+VS Code
+
+Chrome + Live Server Extension
+
+✅ TASK FOR TOMORROW
+Revise box model and selectors. Learn about CSS display properties and dive into positioning and layout systems like Flexbox and Grid.
+
