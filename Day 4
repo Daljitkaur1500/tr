@@ -1,0 +1,49 @@
+🧠 TOPICS COVERED (ANIMATIONS & RESPONSIVENESS)
+
+We explored how to make our websites more interactive and adaptive across devices using CSS transitions, animations, and media queries.
+
+🔹 CSS Transitions
+
+Used to create smooth animations between state changes
+
+css
+Copy
+Edit
+button {
+  transition: background-color 0.3s ease;
+}
+🔹 CSS Animations
+
+Created keyframes using @keyframes
+
+Applied animations using animation-name, duration, timing-function
+
+🔹 Media Queries
+
+Used to apply different styles at different screen sizes
+
+css
+Copy
+Edit
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+🔹 Responsive Web Design
+
+Mobile-first approach
+
+Combined Flexbox/Grid + media queries
+
+Used relative units like %, em, rem for better responsiveness
+
+🔧 TOOLS USED
+
+VS Code
+
+Chrome DevTools (Mobile Viewport Toggle)
+
+✅ TASK FOR TOMORROW
+Start building a fully responsive web page using all concepts learned so far. Explore Bootstrap and Tailwind as faster alternatives for UI development.
+
