@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript: Async & Arrays | Day Report</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    pre {
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      overflow-x: auto;
+    }
+    code {
+      font-family: Consolas, monospace;
+    }
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Topics Covered (Async JS & Arrays)</h1>
+    <p>We dived deeper into asynchronous programming and array manipulations — two of the most important skills in JavaScript.</p>
+
+    <h2>🔹 Callbacks & Event Handling</h2>
+    <ul>
+      <li>Callback functions used to handle events or async results</li>
+      <li>Used <code>addEventListener()</code> for DOM events like <code>click</code>, <code>input</code>, etc.</li>
+    </ul>
+
+    <h2>🔹 Promises</h2>
+    <p>Introduced as a cleaner alternative to callbacks:</p>
+    <pre><code>fetch(url)
+  .then(response =&gt; response.json())
+  .then(data =&gt; console.log(data));</code></pre>
+
+    <h2>🔹 Async/Await</h2>
+    <p>Modern syntax to handle async code in a cleaner, readable way:</p>
+    <pre><code>async function getData() {
+  const res = await fetch(url);
+  const data = await res.json();
+}</code></pre>
+
+    <h2>🔹 Event Loop</h2>
+    <p>Explained how JavaScript handles asynchronous code behind the scenes:</p>
+    <ul>
+      <li>Concepts of call stack</li>
+      <li>Task queue</li>
+      <li>Microtasks</li>
+    </ul>
+
+    <h2>🔹 Arrays & Array Methods</h2>
+    <p>Practiced the following array methods:</p>
+    <ul>
+      <li><code>map()</code> – transform each element</li>
+      <li><code>filter()</code> – select items based on condition</li>
+      <li><code>reduce()</code> – accumulate values</li>
+      <li><code>sort()</code> – reorder elements</li>
+    </ul>
+
+    <h2>🔧 Tools Used</h2>
+    <ul>
+      <li>VS Code</li>
+      <li>Browser Console for debugging</li>
+    </ul>
+
+    <div class="footer">
+      ✅ <strong>Task for Tomorrow:</strong> Learn objects and object-oriented JS, and explore ES6+ syntax improvements. Prepare to write modular and cleaner code.
+    </div>
+  </div>
+</body>
+</html>
