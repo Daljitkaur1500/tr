@@ -1,56 +1,112 @@
-🧠 TOPICS COVERED (LAYOUT & POSITIONING)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Day 3 - Layout & Positioning</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f8;
+      color: #222;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.7;
+    }
+    h1 {
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      color: #007acc;
+      margin-top: 2rem;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .highlight {
+      background-color: #e6f7ff;
+      padding: 1rem;
+      border-left: 4px solid #007acc;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
 
-Today, we focused on layout techniques and how elements behave on the screen using display and positioning properties.
+  <h1>🧠 Topics Covered (Layout & Positioning)</h1>
 
-🔹 CSS Borders, Margins, Padding
+  <p>Today, we focused on layout techniques and how elements behave on the screen using display and positioning properties.</p>
 
-border: 2px solid black;
+  <h2>🔹 CSS Borders, Margins, Padding</h2>
+  <ul>
+    <li><code>border: 2px solid black;</code></li>
+    <li>Margin for spacing <strong>outside</strong> the element</li>
+    <li>Padding for spacing <strong>inside</strong> the element</li>
+  </ul>
 
-margin for spacing outside the element
+  <h2>🔹 CSS Display Property</h2>
+  <ul>
+    <li>Types: <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>none</code></li>
+    <li>Learned their impact on how elements stack or flow</li>
+  </ul>
 
-padding for spacing inside the element
+  <h2>🔹 CSS Positioning</h2>
+  <ul>
+    <li><code>static</code>: default</li>
+    <li><code>relative</code>: shifts element from its normal position</li>
+    <li><code>absolute</code>: positioned relative to nearest ancestor</li>
+    <li><code>fixed</code>: fixed to viewport</li>
+    <li><code>sticky</code>: sticks when scrolling</li>
+  </ul>
 
-🔹 CSS Display Property
+  <h2>🔹 Flexbox Layout</h2>
+  <ul>
+    <li>Container with <code>display: flex</code></li>
+    <li>Used properties like:
+      <ul>
+        <li><code>justify-content</code></li>
+        <li><code>align-items</code></li>
+        <li><code>flex-direction</code></li>
+      </ul>
+    </li>
+    <li>Built basic responsive layouts using flex</li>
+  </ul>
 
-Learned types like block, inline, inline-block, none
+  <h2>🔹 CSS Grid Layout</h2>
+  <ul>
+    <li>Container with <code>display: grid</code></li>
+    <li>Defined rows & columns with:
+      <ul>
+        <li><code>grid-template-rows</code></li>
+        <li><code>grid-template-columns</code></li>
+      </ul>
+    </li>
+    <li>Placed items using:
+      <ul>
+        <li><code>grid-row</code></li>
+        <li><code>grid-column</code></li>
+      </ul>
+    </li>
+  </ul>
 
-Understood their impact on how elements stack or flow
+  <h2>🔧 Tools Used</h2>
+  <ul>
+    <li>VS Code</li>
+    <li>Chrome DevTools (for inspecting box model and layout)</li>
+  </ul>
 
-🔹 CSS Positioning
-Explored different positioning methods:
+  <div class="highlight">
+    ✅ <strong>Task for Tomorrow:</strong><br>
+    Practice Flexbox and Grid examples. Prepare for CSS animations, transitions, and responsive design with media queries.
+  </div>
 
-static: default
-
-relative: shifts element from its normal position
-
-absolute: positioned relative to nearest ancestor
-
-fixed: fixed to viewport
-
-sticky: sticks when scrolling
-
-🔹 Flexbox Layout
-
-Container with display: flex
-
-Properties like justify-content, align-items, flex-direction
-
-Built basic responsive layouts using flex
-
-🔹 CSS Grid Layout
-
-Container with display: grid
-
-Defined rows & columns with grid-template-rows, grid-template-columns
-
-Placed items using grid-row, grid-column
-
-🔧 TOOLS USED
-
-VS Code
-
-Chrome DevTools (for inspecting box model and layout)
-
-✅ TASK FOR TOMORROW
-Practice Flexbox and Grid examples. Prepare for CSS animations, transitions, and responsive design with media queries.
-
+</body>
+</html>
