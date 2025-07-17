@@ -1,69 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Training TR-102 Report</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Training Report | CSE Student</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-image: url('https://i.ibb.co/8mc3Wgq/space-bg.jpg'); /* optional background */
-      background-size: cover;
-      background-position: center;
-      color: #333;
-      text-align: center;
-      padding: 40px;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f5f7fa;
+      color: #2c3e50;
     }
+
+    .container {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
     h1 {
       font-size: 32px;
-      color: #111;
+      color: #1a237e;
+      margin-bottom: 5px;
     }
+
     h2 {
-      font-size: 24px;
+      font-size: 20px;
+      color: #37474f;
+      font-weight: normal;
+      margin-top: 10px;
     }
+
+    p {
+      font-size: 15px;
+      margin: 4px 0;
+      color: #555;
+    }
+
     .button {
-      margin: 10px;
-      padding: 10px 20px;
-      font-size: 16px;
+      margin: 8px;
+      padding: 12px 24px;
+      font-size: 15px;
+      font-weight: 500;
       border: none;
-      border-radius: 5px;
+      border-radius: 8px;
       cursor: pointer;
+      transition: all 0.2s ease-in-out;
     }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
     .day-button {
-      background-color: #2196F3;
-      color: white;
+      background-color: #1e88e5;
+      color: #fff;
     }
+
     .cert-button {
-      background-color: #1abc9c;
-      color: white;
+      background-color: #2e7d32;
+      color: #fff;
     }
+
     .gallery-button {
-      background-color: #3498db;
-      color: white;
+      background-color: #546e7a;
+      color: #fff;
     }
+
     .project-button {
-      background-color: #1a047e;
-      color: white;
+      background-color: #455a64;
+      color: #fff;
     }
-    .container {
-      background-color: rgba(255, 255, 255, 0.85);
-      padding: 20px;
-      border-radius: 15px;
-      display: inline-block;
+
+    .button-group {
+      margin-top: 20px;
+    }
+
+    .day-buttons {
+      margin: 30px auto;
+      max-width: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 26px;
+      }
+      .button {
+        width: 100%;
+        max-width: 220px;
+        margin: 8px auto;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Training Report</h1>
-    <p>By Daljit Kaur, URN 2302504</p>
-    <p>Guru Nanak Dev Engineering College Ludhiana</p>
-    <h2>4 Week training at Sensation Software Solutions Pvt Ltd</h2>
+    <p><strong>Daljit Kaur</strong> | URN: 2302504</p>
+    <p>Department of Computer Science & Engineering</p>
+    <p>Guru Nanak Dev Engineering College, Ludhiana</p>
+    <h2>4-Week Industrial Training at Sensation Software Solutions Pvt Ltd</h2>
 
-    <button class="button cert-button">Training Certificate</button>
-    <button class="button cert-button">Final Report</button>
-    <br><br>
+    <div class="button-group">
+      <button class="button cert-button">Training Certificate</button>
+      <button class="button cert-button">Final Report</button>
+    </div>
 
-    <!-- Day Buttons -->
-    <div>
+    <div class="day-buttons">
       <button class="button day-button">Day 1</button>
       <button class="button day-button">Day 2</button>
       <button class="button day-button">Day 3</button>
@@ -81,9 +133,11 @@
       <button class="button day-button">Day 15</button>
       <button class="button day-button">Day 16</button>
     </div>
-    <br>
-    <button class="button gallery-button">Gallery</button>
-    <button class="button project-button">Projects</button>
+
+    <div class="button-group">
+      <button class="button gallery-button">Gallery</button>
+      <button class="button project-button">Projects</button>
+    </div>
   </div>
 </body>
 </html>
