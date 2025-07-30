@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Express + MongoDB CRUD APIs | Day Report</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Topics Covered (Express + MongoDB CRUD APIs)</h1>
+    <p>Today, we implemented full-stack CRUD operations using Express.js as the backend server and MongoDB as the database. We also structured our backend application into modular routes, controllers, and models, following best practices.</p>
+
+    <h2>🔹 Connecting Express with MongoDB</h2>
+    <ul>
+      <li>Used <code>mongoose.connect()</code> to connect to local and cloud MongoDB.</li>
+      <li>Handled connection success and failure using <code>then/catch</code>.</li>
+      <li>Created a central <code>config/db.js</code> file for DB connection reuse.</li>
+    </ul>
+
+    <h2>🔹 Backend Folder Structure</h2>
+    <ul>
+      <li>Created <code>models</code>, <code>routes</code>, and <code>controllers</code> folders for separation of concerns.</li>
+      <li>Used <code>express.Router()</code> to modularize routes.</li>
+      <li>Established a clean and scalable file structure.</li>
+    </ul>
+
+    <h2>🔹 RESTful CRUD APIs</h2>
+    <ul>
+      <li>Implemented POST API to create new resources using Mongoose <code>.save()</code>.</li>
+      <li>Used GET API to fetch all and individual items by ID.</li>
+      <li>Used PUT and PATCH to update existing documents based on ID.</li>
+      <li>Built DELETE API to remove items securely and handled response codes.</li>
+    </ul>
+
+    <h2>🔹 API Testing using Postman</h2>
+    <ul>
+      <li>Tested all CRUD routes with sample request bodies and headers.</li>
+      <li>Handled validation failures and invalid route handling.</li>
+      <li>Logged meaningful messages in the console for backend debugging.</li>
+    </ul>
+
+    <h2>🔹 Error Handling & Response Structure</h2>
+    <ul>
+      <li>Defined a standard response format: success, message, data, and status code.</li>
+      <li>Used try-catch blocks in controller functions.</li>
+      <li>Created centralized error handling middleware (optional).</li>
+    </ul>
+
+    <div class="footer">
+      End of Day 14 Report – Successfully built and tested complete REST APIs with proper backend project structure using Express and MongoDB.
+    </div>
+  </div>
+</body>
+</html>
