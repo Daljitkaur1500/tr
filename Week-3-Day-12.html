@@ -50,42 +50,53 @@
 <body>
   <div class="container">
     <h1>🧠 Topics Covered (Mongoose ODM & Advanced MongoDB)</h1>
-    <p>Today's session focused on integrating MongoDB with Express using Mongoose ODM. We explored how schemas and models work, added validations, and practiced advanced MongoDB operations like aggregation and population.</p>
+    <p>In today's training session, we focused on integrating MongoDB with Express using Mongoose, a popular ODM (Object Data Modeling) library. We deep-dived into how Mongoose simplifies data interaction, adds structure via schemas, and introduces robust validation and querying mechanisms.</p>
     
     <h2>🔹 Introduction to Mongoose ODM</h2>
     <ul>
-      <li>What is Mongoose and why we use it</li>
-      <li>Connecting Mongoose with MongoDB in Express apps</li>
-      <li>Mongoose architecture overview</li>
+      <li>Discussed the need for an ODM in backend development.</li>
+      <li>Installed Mongoose and set up a connection with MongoDB using <code>mongoose.connect()</code>.</li>
+      <li>Explored the high-level structure of how models and schemas interact with collections.</li>
     </ul>
 
-    <h2>🔹 Schema & Models</h2>
+    <h2>🔹 Defining Schema & Models</h2>
     <ul>
-      <li>Defining schema using <code>mongoose.Schema</code></li>
-      <li>Creating models from schemas</li>
-      <li>Types, defaults, required fields, and custom error messages</li>
+      <li>Learned how to define schemas using <code>new mongoose.Schema()</code>.</li>
+      <li>Explored different field types like String, Number, Boolean, Date, and custom types.</li>
+      <li>Set schema options like required, default, lowercase, trim, and enum.</li>
+      <li>Created reusable models using <code>mongoose.model()</code> and interacted with documents.</li>
     </ul>
 
-    <h2>🔹 Validation in Mongoose</h2>
+    <h2>🔹 Validations in Mongoose</h2>
     <ul>
-      <li>Built-in validations like required, min, max, match, enum</li>
-      <li>Custom validation using validator functions</li>
+      <li>Implemented built-in validation: required, minlength, maxlength, match, etc.</li>
+      <li>Added custom validation logic using functions inside schema fields.</li>
+      <li>Practiced error handling for validation failures and understood Mongoose validation errors.</li>
     </ul>
 
-    <h2>🔹 Advanced Queries & Aggregation</h2>
+    <h2>🔹 Advanced Querying</h2>
     <ul>
-      <li>Using query helpers: <code>find()</code>, <code>limit()</code>, <code>sort()</code>, <code>select()</code></li>
-      <li>Aggregation framework: <code>$match</code>, <code>$group</code>, <code>$project</code></li>
+      <li>Performed complex queries using <code>find()</code>, <code>findById()</code>, <code>select()</code>, and <code>sort()</code>.</li>
+      <li>Filtered documents using operators like <code>$gt</code>, <code>$lt</code>, <code>$in</code>, and <code>$regex</code>.</li>
+      <li>Explored pagination techniques using <code>limit()</code> and <code>skip()</code>.</li>
+    </ul>
+
+    <h2>🔹 Aggregation Framework</h2>
+    <ul>
+      <li>Learned MongoDB aggregation pipeline and its advantages over traditional queries.</li>
+      <li>Used stages like <code>$match</code>, <code>$group</code>, <code>$project</code>, and <code>$sort</code> to process documents.</li>
+      <li>Built sample aggregations to generate custom report data from collections.</li>
     </ul>
 
     <h2>🔹 Population in Mongoose</h2>
     <ul>
-      <li>Referencing documents between collections</li>
-      <li>Using <code>populate()</code> to fetch related data</li>
+      <li>Defined relationships between collections using references.</li>
+      <li>Fetched related documents using <code>.populate()</code> to join data between schemas.</li>
+      <li>Practical example: linking users to blog posts or products to categories.</li>
     </ul>
 
     <div class="footer">
-      End of Day 12 Report – Built strong foundation in schema design and powerful querying using Mongoose.
+      End of Day 12 Report – We mastered schema modeling, validations, and explored the full querying power of Mongoose ODM.
     </div>
   </div>
 </body>
