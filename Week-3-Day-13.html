@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Authentication with JWT & bcrypt | Day Report</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #2980b9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #ecf0f1;
+      padding: 10px;
+      border-left: 5px solid #3498db;
+      margin: 15px 0;
+      font-family: monospace;
+    }
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Topics Covered (Authentication with JWT, bcrypt, and Middleware)</h1>
+    <p>Today was dedicated to securing our Express backend with industry-standard authentication practices. We implemented password hashing, token-based login using JWT, protected API routes, and enforced access control with roles.</p>
+    
+    <h2>🔹 Password Security with bcrypt</h2>
+    <ul>
+      <li>Installed <code>bcryptjs</code> for password encryption.</li>
+      <li>Used <code>bcrypt.hash()</code> to encrypt user passwords before saving in the database.</li>
+      <li>Used <code>bcrypt.compare()</code> to verify login credentials.</li>
+      <li>Understood the importance of hashing and salting in securing sensitive data.</li>
+    </ul>
+
+    <h2>🔹 JWT – JSON Web Tokens</h2>
+    <ul>
+      <li>Generated JWT tokens using <code>jsonwebtoken</code> package.</li>
+      <li>Included user-specific payload (like user ID and role) in the token.</li>
+      <li>Signed tokens with secret keys and set expiry using <code>expiresIn</code>.</li>
+      <li>Sent JWT in HTTP headers and validated them on every protected route.</li>
+    </ul>
+
+    <h2>🔹 Creating Authentication Middleware</h2>
+    <ul>
+      <li>Built a custom middleware to extract the token from headers.</li>
+      <li>Verified the token and attached the decoded user info to <code>req.user</code>.</li>
+      <li>Protected critical routes like dashboard, profile, and admin panels.</li>
+    </ul>
+
+    <h2>🔹 Role-Based Access Control (RBAC)</h2>
+    <ul>
+      <li>Assigned roles such as 'admin', 'editor', 'user' at registration or manually.</li>
+      <li>Created middleware that restricts access based on user role.</li>
+      <li>Developed flexible and scalable permission logic.</li>
+      <li>Example: Only admins can access user list and perform delete operations.</li>
+    </ul>
+
+    <h2>🔹 Practical Demo & Testing</h2>
+    <ul>
+      <li>Tested the complete login-logout system using Postman.</li>
+      <li>Logged in with test users and captured tokens for subsequent requests.</li>
+      <li>Handled invalid credentials and expired tokens with custom error messages.</li>
+    </ul>
+
+    <div class="footer">
+      End of Day 13 Report – We implemented secure authentication and authorization mechanisms, ensuring our backend is production-ready and protected from unauthorized access.
+    </div>
+  </div>
+</body>
+</html>
